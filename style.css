@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --background-color: #043873;
+    --white-color: #FFFFFF; 
+    --login-button-color: #FFE492;
+    --whitepace-button-color: #4F9CF9;
+}
+
+#header{
+    background-color: var(--background-color);
+    width: 100%;
+    height: 927px;
+}
+
+#header #inner-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background-color);
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    height: 92px;
+    width: 100%;
+}
+
+#header #inner-headere #navbar{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#header #inner-header #navbar button{
+    border: none;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+#header #inner-header #navbar a{
+    display:inline-flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+    color: var(--white-color);
+    padding-right: 42px;
+}
+
+.login-button{
+    margin-right: 24px;
+    background-color: var(--login-button-color);
+    width: 126px;
+    height: 60px;
+    color: #043873;
+}
+
+.whitepace-button{
+    background-color: var(--whitepace-button-color);
+    width: 227px;
+    height: 60px;
+    color: #FFFFFF;
+}
+
+.content{
+    margin-left: 220px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;  
+    color: var(--white-color);
+    margin-top: 406px;
+    align-content: center;
+}
+.content h1{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.content p{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content button{
+    width: 219px;
+    height: 63px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: var(--whitepace-button-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 8px; 
+    margin-top: 60px;
+}
+
+#work-together{
+    width: 100%;
+}
+
+#container{
+    padding: center 225px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-top: 320px;
+    margin-bottom: 320px;
+}
+
+#work-together .left{
+    align-items: center;
+    justify-content: center;
+}
+
+#work-together .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 144px;
+}
+
+.right h1{
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.right p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.right button{
+    border: none;
+    background-color: var(--whitepace-button-color);
+    width: 186px;
+    height: 63px;
+    border-radius: 6px;
+}
+
+#footer{
+    height: 81px;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footer a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 60px;
+}
+
+/* #footer .footer-nav{
+} */
